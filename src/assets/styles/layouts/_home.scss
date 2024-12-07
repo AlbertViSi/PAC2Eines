@@ -67,6 +67,10 @@ h1{
     padding-right: 20%;
   }
 }
+.padding5{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 .text-left{
   text-align: justify;
@@ -76,6 +80,30 @@ h1{
 }
 .text-center{
   text-align: center;
+}
+
+.uoc-box{
+  border: 3px solid;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+  max-height: 5em;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+.uoc-box:hover{
+  max-height:100rem;
+}
+.uoc-box-blue{
+  border-color: hsl(181, 100%, 80%);
+}
+.uoc-box-red{
+  border-color: hsl(0, 100%, 80%);
+}
+.uoc-box-yellow{
+  border-color: hsl(62, 100%, 80%);
+}
+.uoc-box-flex{
+  display:flex;
 }
 
 .uoc-container {
